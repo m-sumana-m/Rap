@@ -1,0 +1,6 @@
+@EndUserText.label: 'Travel Processor Service definition'
+define service ZMIC_SM_SD_TRAVEL_PROCESSOR {
+  expose ZMIC_SM_TRAVEL_PROCESSOR    as Travel;
+  expose ZMIC_SM_BOOKING_PROCESSOR   as Booking;
+  expose ZMIC_SM_BOOKSUPPL_PROCESSOR as BookingSupplement;
+}
